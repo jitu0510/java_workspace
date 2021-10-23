@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="net.bytebuddy.asm.MemberSubstitution.Substitution.Stubbing"/>
-    <fullyQualifiedTypeName name="com.manytomany.bean.Students"/>
-    <fullyQualifiedTypeName name="com.manytomany.bean.Courses"/>
-    <fullyQualifiedTypeName name="com.ty.designpattern.factory.VehicleFactory"/>
-    <fullyQualifiedTypeName name="com.ty.designpattern.factory.Vehicle"/>
     <fullyQualifiedTypeName name="com.ty.designpattern.factory.VehicleDriver"/>
     <fullyQualifiedTypeName name="com.ty.designpattern.singelton.Movies"/>
     <fullyQualifiedTypeName name="com.ty.designpattern.template.Game"/>
@@ -17,7 +12,6 @@
     <fullyQualifiedTypeName name="com.ty.hibernate.dao.StudentImpl"/>
     <fullyQualifiedTypeName name="com.ty.hibernate.dto.Student"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
     <fullyQualifiedTypeName name="java.util.ArrayDeque"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="com.ty.spring.annotations.config.PersonConfig"/>
     <fullyQualifiedTypeName name="com.te.spring.annotation1.bean.Animal"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="com.util.assignment.MyArrayList.MyIterator"/>
+    <fullyQualifiedTypeName name="com.util.assignment.MyArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
