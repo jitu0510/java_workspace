@@ -1,0 +1,15 @@
+package com.ty.spring.annotation.bean;
+
+import java.io.Serializable;
+
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+@Data
+@Component
+public class Address implements Serializable {
+	
+	private String hno;
+	private String city;
+
+}

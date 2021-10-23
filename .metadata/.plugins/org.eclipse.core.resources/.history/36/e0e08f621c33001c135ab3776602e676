@@ -1,0 +1,12 @@
+package com.ty.springmvc.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class SpringMvcController {
+
+	public String home()
+	{
+		return "/WEB-INF/views/home.jsp";
+	}
+}

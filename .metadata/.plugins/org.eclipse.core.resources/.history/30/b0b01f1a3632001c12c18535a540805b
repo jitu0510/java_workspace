@@ -1,0 +1,29 @@
+package com.ty.spring.annotation.bean;
+
+import java.io.Serializable;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+
+import lombok.Data;
+
+public class Employee implements Serializable {
+	@Value("jitu")
+	private String name;
+	@Value("101")
+	private int id;
+	
+	@Autowired
+	private Employee employee;
+
+	public Employee getEmployee() {
+		
+		return employee;
+	}
+
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
+	
+	
+}

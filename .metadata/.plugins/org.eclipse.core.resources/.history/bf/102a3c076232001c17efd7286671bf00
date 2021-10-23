@@ -1,0 +1,17 @@
+package com.te.spring.annotation1.bean;
+
+public class Dog implements Animal {
+
+	@Override
+	public void sound() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

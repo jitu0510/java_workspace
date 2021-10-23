@@ -1,0 +1,16 @@
+package com.ty.spring.springcore.test;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		BeanFactory factory = new ClassPathXmlApplicationContext("beans.xml");//ApplicationContext context =....
+		factory.getBean("emp");//context.getBean("emp");
+		System.out.println(factory);
+		
+
+	}
+
+}

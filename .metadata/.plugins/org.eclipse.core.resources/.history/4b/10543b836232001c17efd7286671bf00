@@ -1,0 +1,11 @@
+package com.te.spring.annotation1.bean;
+
+import java.io.Serializable;
+
+import lombok.Data;
+@Data
+public class Pet implements Serializable{
+	private String name;
+	
+
+}

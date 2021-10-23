@@ -1,0 +1,5 @@
+package com.ty.spring.annotations.config;
+
+public class PersonConfig {
+
+}

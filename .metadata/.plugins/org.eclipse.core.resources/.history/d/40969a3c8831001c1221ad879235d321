@@ -1,0 +1,5 @@
+package com.ty.spring.demo;
+@Data
+public class Person {
+
+}

@@ -1,0 +1,21 @@
+package com.ty.springmvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class SpringMvcController {
+
+	@RequestMapping("/home")
+	public String home()
+	{
+		return "/WEB-INF/views/home.jsp";
+	}
+	
+	public String getList(ModelMap model)
+	{
+		model.addAttribute("listdata", list);
+		return "/WEB-INF/views/getData.jsp";
+	}
+}

@@ -1,0 +1,5 @@
+package com.te.spring.annotation1.bean;
+
+public class Student {
+
+}

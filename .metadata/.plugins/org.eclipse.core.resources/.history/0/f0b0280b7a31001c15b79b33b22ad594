@@ -1,0 +1,10 @@
+package com.ty.spring.springcore.test;
+
+public class LifecycleTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
