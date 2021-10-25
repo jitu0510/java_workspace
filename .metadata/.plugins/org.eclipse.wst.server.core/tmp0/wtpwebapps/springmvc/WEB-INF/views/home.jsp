@@ -7,6 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello,This is Home Page.</h1>
+<form action="./afterLogin" method="post">
+
+<input type="text" placeholder="name" name="name">
+<input type="password" placeholder="password" name="pwd">
+<input type="submit">
+
+
+
+</form>
 </body>
 </html>
