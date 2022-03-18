@@ -17,7 +17,7 @@ public class Laptop implements Serializable {
 	private int lId;
 	private String lName;
 	@OneToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name = "eId")
+	@JoinColumn(name = "eId")    //used to rename the column
 	private Employee employee; //using this ref_name in Employee.java as MappedBy 
 	
 	
